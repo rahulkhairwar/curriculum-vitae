@@ -1,0 +1,249 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\usepackage{fontawesome}
+% \begin{document}
+\firstname{Rahul} % Your first name
+\familyname{Khairwar} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{A-101, Shah Heritage}{Sec-42/A, Seawoods(WEST)}{Navi Mumbai - 400706}
+\mobile{(+91) 8848385942}
+\email{rahulkhairwar@gmail.com}
+% \faGithub{https://github.com/rahulkhairwar}
+% \social[github]{rahulkhairwar}
+% \github{https://github.com/rahulkhairwar}
+% \end{document}
+% \social[github]{rahulkhairwar}
+%\homepage{https://www.linkedin.com/pub/daniele-perrotta/64/5b9/794} {staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+% \photo[70pt][0.4pt]{pictures/daniele} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+% \quote{"A witty and playful quotation" - John Smith}
+%----------------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle % Print the CV title
+%----------------------------------------------------------------------------------------
+%	PROFILE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Profile}
+Computer Science Engineering graduate from National Institute of Technology, Calicut.
+Good knowledge of Data Structures and Algorithms through regular participation in competitive programming contests, since 2015.
+
+%----------------------------------------------------------------------------------------
+%	ACHIEVEMENTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Programming Achievements}
+
+\cventry{ACM-ICPC}{Chennai Onsite Regionals 2016-17}{}{}{}{Attained 42nd rank.}
+
+\cventry{Drishti'17}{Dream Codex}{NIT Calicut}{}{}{Attained 1st rank.}
+
+\cventry{Tathva'16}{Hackaholic}{NIT Calicut}{}{}{Attained 2nd rank.}
+
+\cventry{Others}{Online Competitive Programming Websites}{}{}{}{
+\begin{itemize}
+    \item \textbf{Codeforces}, Highest Rating : \textbf{1732 (Expert)}
+    \item \textbf{Codechef}, Highest Rating : \textbf{2060 (5 Stars)}
+    \item \textbf{Topcoder}, Highest Rating : \textbf{1285}
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\cventry{October 2018--present}{Part-time Freelancer}{}{}{}{Small freelance projects in C/C++/Java}
+
+\cventry{July 2017--
+present}{Analyst}{\textsc{Deutsche Bank}}{Pune}{}{
+\begin{itemize}
+    \item Developed an automated script for updating multiple JSON files with data, which saved ~2 hours of work every time new data has to be added.
+    \item Worked with Java Servlet, JSP, AngularJS to build a web interface for displaying, filtering, and storing efficiently, data required for an internal DB product.
+    \item Worked with Java and Apache Kafka$'$s Java API for another internal DB product.
+\end{itemize}
+}
+
+\cventry{April 2016 --
+May 2016}{Android Developer for a Startup}{}{}{}{
+\renewcommand{\listitemsymbol}{-~}
+\begin{itemize}
+    \item Created the complete user interface from scratch of an android application, for an Indian start up company Toud, based in Bangalore.
+    \item Also used some open source solutions for image processing and caching like Picasso.
+\end{itemize}
+}
+
+%------------------------------------------------
+
+\section{Projects and Developments}
+
+\cventry{March 2017 --
+May 2017}{Intellij IDEA Plugin to automate testing for Codeforces Contests}{}{}{}{
+    Used Intellij IDEA API and Codeforces API to create a plugin for Intellij that automates the testing process of all sample tests for Codeforces contest questions.\\
+    Link to project : \href{https://github.com/rahulkhairwar/CP-Made-Easy}{https://github.com/rahulkhairwar/CP-Made-Easy}
+}
+
+\cventry{December 2018}{Automated Cricket Commentary for Whatsapp}{}{}{}{Wrote a Python script to automatically fetch scores and commentary of a live match from ESPN Cricinfo, and send them to multiple Whatsapp contacts.\\
+Link to project : \href{https://github.com/rahulkhairwar/automated-whatsapp-cricket-commentary}{https://github.com/rahulkhairwar/automated-whatsapp-cricket-commentary}
+}
+
+\cventry{October 2018 --
+November 2018}{A Tennis Search Engine}{}{}{}{Built a simple search engine in a group of 3, that$'$s for all things related to Tennis using Node.js, ReactJS, MongoDB(using mLab).\\
+Link to project : \href{https://github.com/rahulkhairwar/tennis-search-engine}{https://github.com/rahulkhairwar/tennis-search-engine}
+}
+
+\cventry{October 2015 --
+November 2015}{Restaurant Online Ordering Project in PHP}{}{}{}{
+Created the project using PHP and MySQL.\\
+Link to project : \href{https://github.com/rahulkhairwar/Restaurant-Management}{https://github.com/rahulkhairwar/Restaurant-Management}
+}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+% \cventry{2005--2013}{Laurea Specialistica  in Ingegneria  Biomedica}{Universita' degli studi  Magna Graecia}{Catanzaro}{\textit{voto finale - 110/110 con Lode}}{}
+\cventry{2013--2017}{National Institute of Technology, Calicut}{Computer Science Engineering}{}{}{}  % Arguments not required can be left empty
+
+%\section{Masters Thesis}
+
+%\cvitem{Title}{\emph{Technologies and characterization of ferroelectric polymers for biomedical sensors}}
+%\cvitem{Supervisors}{Professor Antonino Fiorillo}
+%\cvitem{Description}{This thesis is based on the implementation of a temperature sensor.}
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+% \section{Titolo di Merito/Professionali - Riconoscimenti/Accreditamenti}
+
+% \cventry{Ottobre 2012}{Ingegnere Industriale}{\textsc{Arcavacata Campus -- Universita' della Calabria}}{Cosenza}{}{Abilitazione all'esercizio della professione di Ingegnere - Settore industriale}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Technical Skills}
+
+\cvitem{Languages}{Java, Android, Node.js, C, C++, PHP, Swift(Basic)}
+\cvitem{IDEs/Utilities}{Intellij, Android Studio, Visual Studio Code, Git}
+\cvitem{OS}{MacOS, Linux, Windows}
+\cvitem{Worked With}{SQL, MongoDB, JSON, XML}
+
+
+%----------------------------------------------------------------------------------------
+%	CERTIFICATIONS AND QUALIFICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Certifications and Qualifications}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cventry{Coursera}{Graph Search, Shortest Paths, and Data Structures}{by Stanford University}{}{}{Certificate : \href{https://www.coursera.org/account/accomplishments/certificate/YJ83BGX8JBMA}{https://www.coursera.org/account/accomplishments/certificate/YJ83BGX8JBMA}}
+
+\cventry{}{Divide and Conquer, Sorting and Searching, and Randomized Algorithms}{by Stanford University}{}{}{Certificate : \href{https://www.coursera.org/account/accomplishments/certificate/4B93SPLQJSMB}{https://www.coursera.org/account/accomplishments/certificate/4B93SPLQJSMB}}
+
+\cventry{SEED Infotech}{Advanced Java}{Mumbai}{}{}{
+\textbf{Android}, \textit{Mumbai}\\
+\textbf{Oracle SQL}, \textit{Mumbai}
+}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Communication Skills}
+
+%\cvitem{2010}{Oral Presentation at the California Business Conference}
+%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Lingue}
+
+% \cvitemwithcomment{Italiano}{Madrelingua}{}
+% \cvitemwithcomment{Inglese}{Livello Intermedio}{}
+%\cvitemwithcomment{Dutch}{Basic}{Basic words and phrases only}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Hobbies and Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistitem{\textbf{Charcoal Sketching}. Some of my work :\\\href{ http://www.touchtalent.com/artist/289851/rahul-khairwar}{ http://www.touchtalent.com/artist/289851/rahul-khairwar}}
+\cvlistitem{\textbf{Cooking}, Table Tennis, reading about new technology, listening to music.}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+
+
+
