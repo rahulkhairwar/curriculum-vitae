@@ -216,12 +216,12 @@
 \renewcommand*{\title}[1]{\def\@title{#1}}
 \newcommand*{\address}[3]{\def\@addressflat{#1}\def\@addressstreet{#2}\def\@addresscity{#3}}
 % \renewcommand*{\address}[1]{\def\@addresscity{#1}}
+\newcommandx*{\faGithub}[1]{\def\@github{#1}}
 \newcommand*{\mobile}[1]{\def\@mobile{#1}}
 \newcommand*{\phone}[1]{\def\@phone{#1}}
 \newcommand*{\fax}[1]{\def\@fax{#1}}
 \newcommand*{\email}[1]{\def\@email{#1}}
 % \newcommand*{\github}[1]{\def\@github{#1}}
-% \newcommandx*{\faGithub}[1]{\def\@github{#1}}
 \newcommand*{\homepage}[2]{\def\@homepage{#1}\def\@homepagetitle{#2}}
 
 % colors
