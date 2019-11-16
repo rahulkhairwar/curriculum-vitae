@@ -1,3 +1,3 @@
 ## PDF Screenshot
 
-<img width="1440" alt="pdf screenshot" src="https://user-images.githubusercontent.com/6687820/56997302-ee764080-6bc4-11e9-9a96-d76d22cd2719.png">
+<img width="1440" alt="pdf screenshot" src="https://user-images.githubusercontent.com/6687820/68998968-21c7b500-08f4-11ea-81d7-3da5748637a9.png">
