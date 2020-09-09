@@ -45,8 +45,12 @@
 
 % All information in this block is optional, comment out any lines you don't need
 \title{Curriculum Vitae}
-\address{A-101, Shah Heritage}{Sec-42/A, Seawoods(WEST)}{Navi Mumbai - 400706}
-\mobile{(+91) 8848385942}
+% \address{A-101, Shah Heritage}{Sec-42/A, Seawoods(WEST)}{Navi Mumbai - 400706}
+% \faGithub{https://github.com/rahulkhairwar}
+
+% https://github.com/rahulkhairwar
+
+\mobile{(+65) 83553078}
 \email{rahulkhairwar@gmail.com}
 % \faGithub{https://github.com/rahulkhairwar}
 % \social[github]{rahulkhairwar}
@@ -65,8 +69,79 @@
 %----------------------------------------------------------------------------------------
 
 \section{Profile}
-Computer Science Engineering graduate from National Institute of Technology, Calicut.
-Good knowledge of Data Structures and Algorithms through regular participation in competitive programming contests, since 2015.
+An enthusiastic Software Engineer with 3+ years experience developing robust and scalable code for high-volume businesses. A team player, and a deep creative thinker, a firm believer of the power of code.
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+\cventry{October 2019--present}{Senior Software Engineer}{\textsc{Deskera}}{Singapore}{}{
+\begin{itemize}
+    \item Developed a User Management micro-service from scratch for Deskera's HRMS products(Eleave and Payroll). Currently part of a team of 5 working on User Management and Eleave micro-services.
+    \item Being the senior most Golang developer in Deskera, responsible for leading the entire development of the User Management and Eleave services, which includes the entire architectural design for the services, code structure, and code reviews on a daily basis.
+    \item Implemented a Hexagonal architecture for the services, exposing gRPC endpoints(for inter-service communication), as well as REST endpoints(using grpc-gateway, for consumption from the UI).
+    \item Previously, also worked on building features in multiple micro-services like Bank-Integrations, Quotation, Inventory, which form the core part of Deskera's ERP.
+\end{itemize}
+}
+
+\cventry{January 2019--September 2019}{Software Developer(Search Team)}{\textsc{Zilingo}}{Bangalore}{}{
+\begin{itemize}
+    \item Improved Zilingo's platform-wide search on products, sellers, brands, etc. by continuously adding new features like A-B testing, product suggestions and query corrections.
+    \item Created a completely new graph structure specific to search. This structure was used directly for NER to improve the overall quality of search suggestions.
+    \item Used Elasticsearch to efficiently query for results based on categories/choices/filters, etc.
+\end{itemize}
+}
+
+\cventry{October 2018--present}{Part-time Freelancer}{}{}{}{Small freelance projects in C/C++/Java/Python}
+
+\cventry{July 2017--
+December 2018}{Analyst}{\textsc{Deutsche Bank}}{Pune}{}{
+\begin{itemize}
+    \item Developed an automated script for updating some really complex JSON data, which saved ~2 hours of manual work every time new data has to be added.
+    \item Worked with Java Servlet, JSP, AngularJS to build a web interface for displaying, filtering, and storing efficiently, data required for an internal DB product.
+    \item Worked with Java and Apache Kafka$'$s Java API for another internal DB product.
+\end{itemize}
+}
+
+% \cventry{April 2016 --
+% May 2016}{Android Developer for a Startup}{}{}{}{
+% \renewcommand{\listitemsymbol}{-~}
+% \begin{itemize}
+%     \item Created the complete user interface from scratch of an android application, for an Indian start up company Toud, based in Bangalore.
+%     \item Also used some open source solutions for image processing and caching like Picasso.
+% \end{itemize}
+% }
+
+%------------------------------------------------
+
+\section{Projects and Developments}
+
+\cventry{March 2017 --
+May 2017}{Intellij IDEA Plugin to automate testing for Codeforces Contests}{}{}{}{
+    Used Intellij IDEA API and Codeforces API to create a plugin for Intellij that automates the testing process of all sample tests for Codeforces contest questions.\\
+    Link to project : \href{https://github.com/rahulkhairwar/cp-made-easy}{https://github.com/rahulkhairwar/cp-made-easy}
+}
+
+\cventry{December 2018}{Automated Cricket Commentary for Whatsapp}{}{}{}{
+    Wrote a Python script to automatically fetch scores and commentary of a live match from ESPN Cricinfo, and send them to multiple Whatsapp contacts at regular intervals.\\
+    Link to project : \href{https://github.com/rahulkhairwar/automated-whatsapp-cricket-commentary}{https://github.com/rahulkhairwar/automated-whatsapp-cricket-commentary}
+}
+
+\cventry{August 2019 -- present}{Tennis Score Prediction Game}{}{}{}{
+    A web app backend for a tennis score prediction game for a group of tennis enthusiasts. Written in Golang.
+}
+
+% \cventry{October 2018 --
+% November 2018}{A Tennis Search Engine}{}{}{}{Built a simple search engine in a group of 3, that$'$s for all things related to Tennis using Node.js, ReactJS, MongoDB(using mLab).\\
+% Link to project : \href{https://github.com/rahulkhairwar/tennis-search-engine}{https://github.com/rahulkhairwar/tennis-search-engine}
+% }
+
+% \cventry{October 2015 --
+% November 2015}{Restaurant Online Ordering Project in PHP}{}{}{}{
+% Created the project using PHP and MySQL.\\
+% Link to project : \href{https://github.com/rahulkhairwar/Restaurant-Management}{https://github.com/rahulkhairwar/Restaurant-Management}
+% }
 
 %----------------------------------------------------------------------------------------
 %	ACHIEVEMENTS SECTION
@@ -86,65 +161,6 @@ Good knowledge of Data Structures and Algorithms through regular participation i
     \item \textbf{Codechef}, Highest Rating : \textbf{2060 (5 Stars)}
     \item \textbf{Topcoder}, Highest Rating : \textbf{1285}
 \end{itemize}
-}
-
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Work Experience}
-
-\cventry{January 2019--present}{Software Developer(Search Team)}{\textsc{Zilingo}}{Bangalore}{}{
-\begin{itemize}
-    \item Improved Zilingo's platform-wide search on products, sellers, brands, etc. by continuously adding new features like A-B testing, product suggestions and query corrections.
-    \item Created a completely new graph structure specific to search. This structure was used directly for NER to improve the overall quality of search suggestions.
-    \item Used Elasticsearch to efficiently query for results based on categories/choices/filters, etc.
-\end{itemize}
-}
-
-\cventry{October 2018--present}{Part-time Freelancer}{}{}{}{Small freelance projects in C/C++/Java}
-
-\cventry{July 2017--
-December 2018}{Analyst}{\textsc{Deutsche Bank}}{Pune}{}{
-\begin{itemize}
-    \item Developed an automated script for updating multiple JSON files with data, which saved ~2 hours of work every time new data has to be added.
-    \item Worked with Java Servlet, JSP, AngularJS to build a web interface for displaying, filtering, and storing efficiently, data required for an internal DB product.
-    \item Worked with Java and Apache Kafka$'$s Java API for another internal DB product.
-\end{itemize}
-}
-
-\cventry{April 2016 --
-May 2016}{Android Developer for a Startup}{}{}{}{
-\renewcommand{\listitemsymbol}{-~}
-\begin{itemize}
-    \item Created the complete user interface from scratch of an android application, for an Indian start up company Toud, based in Bangalore.
-    \item Also used some open source solutions for image processing and caching like Picasso.
-\end{itemize}
-}
-
-%------------------------------------------------
-
-\section{Projects and Developments}
-
-\cventry{March 2017 --
-May 2017}{Intellij IDEA Plugin to automate testing for Codeforces Contests}{}{}{}{
-    Used Intellij IDEA API and Codeforces API to create a plugin for Intellij that automates the testing process of all sample tests for Codeforces contest questions.\\
-    Link to project : \href{https://github.com/rahulkhairwar/cp-made-easy}{https://github.com/rahulkhairwar/cp-made-easy}
-}
-
-\cventry{December 2018}{Automated Cricket Commentary for Whatsapp}{}{}{}{Wrote a Python script to automatically fetch scores and commentary of a live match from ESPN Cricinfo, and send them to multiple Whatsapp contacts at regular intervals.\\
-Link to project : \href{https://github.com/rahulkhairwar/automated-whatsapp-cricket-commentary}{https://github.com/rahulkhairwar/automated-whatsapp-cricket-commentary}
-}
-
-\cventry{October 2018 --
-November 2018}{A Tennis Search Engine}{}{}{}{Built a simple search engine in a group of 3, that$'$s for all things related to Tennis using Node.js, ReactJS, MongoDB(using mLab).\\
-Link to project : \href{https://github.com/rahulkhairwar/tennis-search-engine}{https://github.com/rahulkhairwar/tennis-search-engine}
-}
-
-\cventry{October 2015 --
-November 2015}{Restaurant Online Ordering Project in PHP}{}{}{}{
-Created the project using PHP and MySQL.\\
-Link to project : \href{https://github.com/rahulkhairwar/Restaurant-Management}{https://github.com/rahulkhairwar/Restaurant-Management}
 }
 
 %----------------------------------------------------------------------------------------
@@ -176,10 +192,8 @@ Link to project : \href{https://github.com/rahulkhairwar/Restaurant-Management}{
 
 \section{Technical Skills}
 
-\cvitem{Languages}{Java, Android, Node.js, C, C++, PHP, Python, Swift(Basic)}
-\cvitem{IDEs/Utilities}{Intellij, Android Studio, Visual Studio Code, Git}
-\cvitem{OS}{MacOS, Linux, Windows}
-\cvitem{Worked With}{SQL, MongoDB, JSON, XML}
+\cvitem{Languages}{Golang, Java, Scala, Python, C++, C}
+\cvitem{Worked With}{gRPC, Kafka, Elasticsearch, SQL, MongoDB}
 
 
 %----------------------------------------------------------------------------------------
@@ -194,10 +208,7 @@ Link to project : \href{https://github.com/rahulkhairwar/Restaurant-Management}{
 
 \cventry{}{Divide and Conquer, Sorting and Searching, and Randomized Algorithms}{by Stanford University}{}{}{Certificate : \href{https://www.coursera.org/account/accomplishments/certificate/4B93SPLQJSMB}{https://www.coursera.org/account/accomplishments/certificate/4B93SPLQJSMB}}
 
-\cventry{SEED Infotech}{Advanced Java}{Mumbai}{}{}{
-\textbf{Android}, \textit{Mumbai}\\
-\textbf{Oracle SQL}, \textit{Mumbai}
-}
+\cventry{Udemy}{Go: The Complete Developer's Guide}{}{}{}{Certificate : https://www.udemy.com/certificate/UC-XP246RGW/}
 
 %----------------------------------------------------------------------------------------
 %	COMMUNICATION SKILLS SECTION
@@ -226,7 +237,7 @@ Link to project : \href{https://github.com/rahulkhairwar/Restaurant-Management}{
 
 \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
 
-\cvlistitem{\textbf{Charcoal Sketching}. Some of my work :\\\href{ http://www.touchtalent.com/artist/289851/rahul-khairwar}{ http://www.touchtalent.com/artist/289851/rahul-khairwar}}
+\cvlistitem{\textbf{Charcoal Sketching}. Some of my work :\\\href{ https://www.instagram.com/till.death.do.us.art/}{ https://www.instagram.com/till.death.do.us.art/}}
 \cvlistitem{\textbf{Cooking}, Table Tennis, reading about new technology, listening to music.}
 
 %----------------------------------------------------------------------------------------

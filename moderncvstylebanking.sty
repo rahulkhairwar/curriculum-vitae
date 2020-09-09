@@ -94,11 +94,11 @@
     \addressfont\color{color2}%
     \ifthenelse{\isundefined{\@addressstreet}}{}{\addtomaketitle{\addresssymbol\@addressstreet}%
       \ifthenelse{\equal{\@addresscity}{}}{}{\addtomaketitle[~--~]{\@addresscity}}\flushmaketitle\@firstmaketitleelementtrue\\}% if \addresstreet is defined, \addresscity will always be defined but could be empty
+    % \ifthenelse{\isundefined{\@faGithub}}{}{\makenewline\emailsymbol\emaillink{\@faGithub}}%
     \ifthenelse{\isundefined{\@mobile}}{}{\addtomaketitle{\mobilesymbol\@mobile}}%
     \ifthenelse{\isundefined{\@phone}}{}{\addtomaketitle{\phonesymbol\@phone}}%
     \ifthenelse{\isundefined{\@fax}}{}{\addtomaketitle{\faxsymbol\@fax}}%
     \ifthenelse{\isundefined{\@email}}{}{\addtomaketitle{\emailsymbol\emaillink{\@email}}}%
-    % \ifthenelse{\isundefined{\@github}}{}{\makenewline\emailsymbol\emaillink{\@github}}%
         \ifthenelse{\isundefined{\@homepage}}{}{%
 	\ifthenelse{\equal{\@homepagetitle}{}}% \homepagetitle could be empty
 	{\addtomaketitle{\homepagesymbol\httplink{\@homepage}}}%
